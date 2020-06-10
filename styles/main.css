@@ -1,7 +1,18 @@
 
         html {
-            font-family: 'Roboto', 
-            sans-serif;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        #page-home {
+            height: 100vh;
+            background: url(../assets/home-background.svg) no-repeat;
+        }
+
+
+        #page-home .content {
+            width: 90%;
+            max-width: 1100px;
+            margin: 0 auto;
         }
 
         header {
@@ -10,8 +21,4 @@
             justify-content: space-between;
         }
 
-        .content {
-            width: 90%;
-            max-width: 1100px;
-            margin: 0 auto;
-        }
+    
